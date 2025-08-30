@@ -55,7 +55,7 @@ def run_simulation():
     N = int(df_recife_clean['pop_2020'].iloc[0])
     print(f"População total de Recife (N): {N:,}")
 
-    # Cenário 1: COVID-19
+    # Cenário 1: COVID-19 (doença respiratória)
     periodo_infeccioso_covid = 10
     gamma_covid = 1 / periodo_infeccioso_covid
     r0_covid = 2.5
